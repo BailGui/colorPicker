@@ -30,6 +30,8 @@ let titles = document.querySelectorAll("h1");
 titles.addEventListener('click', scrollClick);
     function scrollClick(){
         this.scrollIntoView();
+        
+
     }
 
 backgroundColorPicker.addEventListener('change', changeColorBackground);
