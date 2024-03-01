@@ -22,7 +22,7 @@ function scrollToNext(event) {
         if (indexTitres === listeTitres.length) indexTitres = 0;
     } else {
         indexTitres--;
-        if (indexTitres === -1) indexTitres = listeTitres.length;
+        if (indexTitres === -1) indexTitres = listeTitres.length - 1;
     }
     listeTitres[indexTitres].scrollIntoView({behavior: "smooth"});
 }
